@@ -1,7 +1,7 @@
 # Open Jarvis ProGuard Rules (R8 Full Mode)
 
 # Keep Room entities
--keep class com.openjarvis.graphify.nodes.** { *; }
+-keep class com.naresh8469.openjarvis.graphify.nodes.** { *; }
 -keep class * extends androidx.room.RoomDatabase
 -keep @androidx.room.Entity class *
 -keep @androidx.room.Dao interface *
@@ -10,15 +10,15 @@
 }
 
 # Keep AccessibilityService
--keep class com.openjarvis.accessibility.JarvisAccessibilityService { *; }
+-keep class com.naresh8469.openjarvis.accessibility.JarvisAccessibilityService { *; }
 -keep class * extends android.accessibilityservice.AccessibilityService
 -keep class * extends android.view.accessibility.AccessibilityNodeInfo
 
 # Keep Graphify
--keep class com.openjarvis.graphify.** { *; }
+-keep class com.naresh8469.openjarvis.graphify.** { *; }
 
 # Keep model classes
--keep class com.openjarvis.** { *; }
+-keep class com.naresh8469.openjarvis.** { *; }
 
 # Coroutines
 -keepclassmembers class kotlinx.coroutines.** { *; }

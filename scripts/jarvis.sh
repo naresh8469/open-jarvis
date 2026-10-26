@@ -17,7 +17,7 @@ find_port() {
     if [ -f "$port_file" ]; then
         cat "$port_file"
     else
-        local files_dir="/data/data/com.openjarvis/files"
+        local files_dir="/data/data/com.naresh8469.openjarvis/files"
         if [ -f "${files_dir}/${SOCKET_FILE}" ]; then
             cat "${files_dir}/${SOCKET_FILE}"
         else

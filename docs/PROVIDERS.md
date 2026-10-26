@@ -31,9 +31,9 @@ Open Jarvis uses a universal adapter pattern to support multiple LLM providers t
 ### Step 1: Implement the Interface
 
 ```kotlin
-package com.openjarvis.llm.providers
+package com.naresh8469.openjarvis.llm.providers
 
-import com.openjarvis.llm.LLMProvider
+import com.naresh8469.openjarvis.llm.LLMProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
